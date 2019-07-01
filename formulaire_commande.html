@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Formulaire de commande</title>
+    <link href="../../../HTML-CSS/bootstrap-4.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/formulaire_commande.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <h2>Prise de commande</h2>
+            <hr class="my-4">
+    </header>
+    <div class="container-fluid" id="firstDiv">
+        <div class="row align-items-center">
+            <div class="col-3">
+                <h4 class="text-center mb-3 font-weight-bold">Libellé</h4>
+            </div>
+            <div class="offset-1 col-1">
+                <h4 class="text-center mb-3 font-weight-bold">Référence</h4>
+            </div>
+            <div class="col-1">
+                <h4 class="text-center mb-3 font-weight-bold">Quantité</h4>
+            </div>
+            <div class="col-2">
+                <h4 class="text-center mb-3 font-weight-bold">Prix unitaire</h4>
+            </div>
+            <div class="offset-1 col-2">
+                <h4 class="text-center mb-3 font-weight-bold">Prix</h4>
+            </div>
+        </div>
+        
+        <div class="row my-5" id="lastDiv">
+            <div class="col-1">
+                <button type="button" class="btn btn-secondary" id="ajouter">+</button>
+            </div>
+            <div class="col-8">
+                <h4 class="text-right mb-3 font-weight-bold">Total</h4>
+            </div>
+            <div class="col-2">
+                <input class="form-control" type="text" name="Total" id="Total" disabled=true/>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
