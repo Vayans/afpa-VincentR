@@ -13,6 +13,12 @@ $maVoiture = new Voiture('AB-123-CD', 'rouge', 2, 100, 60.0, 5);
 
 <body>
     <?php var_dump($maVoiture) ?>
+    <?php $maVoiture->setAssure(true) ?>
+    <hr>
+    <?php var_dump($maVoiture) ?>
+    <?php $maVoiture->repeindre('rouge') ?>
+    <hr>
+    <?php var_dump($maVoiture) ?>
 </body>
 
 </html>

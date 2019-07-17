@@ -75,4 +75,18 @@ class Voiture
         $this->assure = $assure;
         $this->message = 'vous etes maintenant assuré';
     }
+
+    public function repeindre($couleur)
+    {
+        if ($this->couleur != $couleur){
+        $this->couleur = $couleur;
+        $this->message = 'Votre voiture est maintenant ' .$couleur;
+    }
+    else $this->message = 'Merci pour ce rafraichissement';
+    }
+
+    public function mettre_essence($essence)
+    {
+        if 
+    }
 }
