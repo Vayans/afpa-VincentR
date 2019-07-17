@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>page login</title>
+</head>
+
+<body>
+    <h2>Bienvenue sur notre site Web</h2>
+    <form name="formulaire" action="loginctrl.php" method="POST">
+        <p>
+            <label for="prenom">Entrez votre nom :</label>
+            <input type="text" name="nom" id="nom" />
+        </p>
+        <p>
+            <label for="mdp">Entrez votre mot de passe :</label>
+            <input type="password" name="mdp" id="mdp" />
+        </p>
+        <div id="button">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Recommencer</button>
+        </div>
+    </form>
+</body>

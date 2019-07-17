@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Un petit formulaire</title>
+</head>
+
+<body>
+    <h2>Un petit formulaire (pour commencer)</h2>
+    <p>Merci de renseigner les informations suivantes :</p>
+    <form name="formulaire" action="formul.php" method="GET">
+        <p>
+            <label for="nom">Votre nom :</label>
+            <input type="text" name="nom" />
+        </p>
+        <p>
+            <label for="age">Votre age :</label>
+            <input type="text" name="age" />
+        </p>
+        <p>
+            <label for="marit">Votre situation maritale: </label>
+            <input type="radio" name="marit" value="marié" checked/>Marié
+            <input type="radio" name="marit" value="veuf(ve)"/>Veuf(ve)
+            <input type="radio" name="marit" value="célibataire"/>Célibataire
+        </p>
+        <p>
+            <label for="interet">Vos centres d'intérêt: </label>
+            <input type="checkbox" name="internet" />Internet
+            <input type="checkbox" name="micro" />Micro-informatique
+            <input type="checkbox" name="jeux" />Jeux Vidéo
+        </p>
+        <div>
+            <button type="submit">Envoyer</button>
+            <button type="reset">Recommencer</button>
+        </div>
+    </form>
+</body>
